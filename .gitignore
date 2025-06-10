@@ -1,6 +1,4 @@
 # Java compiled files
-*.class
-
 # Maven / Gradle build directories
 /target/
 /build/
@@ -10,9 +8,6 @@
 *.ipr
 *.iws
 .idea/
-.project
-.classpath
-.settings/
 
 # Logs and temp files
 *.log
