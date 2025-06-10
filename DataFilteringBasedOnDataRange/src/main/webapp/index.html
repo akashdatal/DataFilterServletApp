@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Filter Posts</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+	crossorigin="anonymous">
+</head>
+<body>
+	<div class="Container" class="form-control" align="center">
+		<h2>Filter Posts by Date Range</h2>
+		<br></br>
+		<form method="get" action="FetchFilteredDataServlet">
+			<label for="startDate">Start Date :</label> <input type="text"
+				align="center" id="startDate" placeholder="yyyy-dd-mm"
+				name="startDate" pattern="\d{4}-\d{2}-\d{2}" required /><br>
+			<br> <label for="endDate">End Date :</label> <input type="text"
+				placeholder="yyyy-dd-mm" id="endDate" name="endDate"
+				pattern="\d{4}-\d{2}-\d{2}" required /><br>
+			<br> <input type="submit" class="btn btn-primary"
+				value="Fetch Posts" />
+		</form>
+	</div>
+</body>
+</html>
