@@ -1,0 +1,27 @@
+# Java compiled files
+*.class
+
+# Maven / Gradle build directories
+/target/
+/build/
+
+# IDE specific files
+*.iml
+*.ipr
+*.iws
+.idea/
+.project
+.classpath
+.settings/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# WAR or EAR files
+*.war
+*.ear
