@@ -14,14 +14,11 @@
 		<h2>Filter Posts by Date Range</h2>
 		<br></br>
 		<form method="get" action="FetchFilteredDataServlet">
-			<label for="startDate">Start Date :</label> <input type="text"
-				align="center" id="startDate" placeholder="yyyy-dd-mm"
-				name="startDate" pattern="\d{4}-\d{2}-\d{2}" required /><br>
-			<br> <label for="endDate">End Date :</label> <input type="text"
-				placeholder="yyyy-dd-mm" id="endDate" name="endDate"
-				pattern="\d{4}-\d{2}-\d{2}" required /><br>
-			<br> <input type="submit" class="btn btn-primary"
-				value="Fetch Posts" />
+			<label for="startDate">Start Date :</label>
+			<input type="date" id="startDate" name="startDate" required/><br><br> 
+			<label for="endDate">End Date :</label> 
+			<input type="date" id="endDate" name="endDate" required/><br><br> 
+			<input type="submit" class="btn btn-primary"value="Fetch Posts" />
 		</form>
 	</div>
 </body>
